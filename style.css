@@ -1,0 +1,173 @@
+body{
+	text-align: center;
+  
+  
+}
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.container{
+	width: 70%;
+	background:-webkit-linear-gradient(red,black);
+	height: 1020px;
+	margin-left: 15%;
+	margin-right: 15%;
+  border-radius:20px;
+  
+  
+}
+
+.top{
+	height: 60px;
+	display: flex;
+	align-items: center;
+  display: -webkit-flex;
+    display: flex;
+}
+
+.header{
+	font-size: 40px;
+	margin: 20px;
+  color:black;
+  width:400px;
+}
+
+
+
+.box{
+	height: 320px;
+	border: 2px;
+	background-color:rgba(255,255,255,0.4);
+	margin: 20px;
+  border-radius:20px;
+  color:black;
+  display: -webkit-flex;
+    display: flex;
+
+  
+}
+
+.box2{
+	height: 260px;
+	border: 2px;
+	background-color:rgba(255,255,255,0.4);
+	margin: 20px;
+  border-radius:20px;
+  color:black;
+  display: -webkit-flex;
+    display: flex;
+
+  
+}
+
+#photo{
+	width: 195px;
+	float: left;
+	background-image: url(IXLM6673.jpg);
+    background-size: contain;
+	height: 260px;
+    margin: 20px;
+  color:white;
+  display: flex;
+	align-items: center;
+  justify-content: center;
+  margine:10px;
+  
+}
+
+#self-intro{
+	margin: 20px;
+  width:750px;
+}
+
+.linker a{
+  color:white;
+  transition:300ms;
+  text-decoration:none;
+  margine:20px;
+  display:inline-block;
+  float:right;
+  padding:12px;
+ 
+}
+
+.linker a:hover{
+  color:black;
+}
+.linker a:active{
+  color:grey;
+}
+
+#connect a{
+  color:black;
+  transition:300ms;
+  text-decoration:none;
+  margine:20px;
+}
+
+#connect{
+    color:black;
+}
+#connect a:hover{
+  color:black;
+}
+
+ol{
+	float: left;
+}
+
+ul{
+	float: left;
+}
+
+h3{
+	display: flex;
+	align-items: center;
+	margin: 15px;
+	justify-content: center;
+  width:150px;
+  
+
+}
+
+.work-p{
+	width: 200px;
+	background-image: url(capricorn.jpg);
+    background-size: contain;
+	height: 200px;
+	margin: 20px;
+	float: right;
+  color:white;
+  display: flex;
+	align-items: center;
+  justify-content: center;
+  padding:10px;
+}
+ul{
+    margin-top: 50px;
+}
+.fav-p{
+	width: 320px;
+	background-image: url(hype-ru-spencer-im-jN8PE1VCOL4GTDMzi7PaJL5.jpeg);
+    background-size: contain;
+	height: 200px;
+	margin: 20px;
+	float: left;
+  color:white;
+  display: flex;
+	align-items: center;
+  justify-content: center;
+  padding:10px;
+}
+
+hr{
+  decoration:none;
+  color:white;
+margin: 20px;
+}
